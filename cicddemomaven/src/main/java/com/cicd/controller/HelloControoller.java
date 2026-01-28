@@ -9,6 +9,6 @@ public class HelloControoller {
 	@GetMapping("/hello")
 	public String hello() {
 		System.out.println("Hello");
-		return "Hello CI-CD pipeline 6+5 has been completed";
+		return "Hello CI-CD pipeline has been completed";
 	}
 }
