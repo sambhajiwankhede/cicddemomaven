@@ -8,6 +8,7 @@ public class ViewController {
 
 	@GetMapping("/welcome")
 	public String welcomePage() {
+		System.out.println("View request received");
 		return "welcome";
 	}
 }
