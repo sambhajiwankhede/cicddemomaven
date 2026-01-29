@@ -6,9 +6,9 @@ import org.springframework.boot.builder.SpringApplicationBuilder;
 import org.springframework.boot.web.servlet.support.SpringBootServletInitializer;
 
 @SpringBootApplication
-public class CicddemomavenApplication extends SpringBootServletInitializer{
+public class CicddemomavenApplication extends SpringBootServletInitializer {
 
-	@Override
+    @Override
     protected SpringApplicationBuilder configure(SpringApplicationBuilder builder) {
         return builder.sources(CicddemomavenApplication.class);
     }
@@ -16,5 +16,4 @@ public class CicddemomavenApplication extends SpringBootServletInitializer{
     public static void main(String[] args) {
         SpringApplication.run(CicddemomavenApplication.class, args);
     }
-
 }

@@ -8,7 +8,7 @@ public class HelloControoller {
 
 	@GetMapping("/hello")
 	public String hello() {
-		System.out.println("Hello");
+		System.out.println("Hello endpoint invoked");
 		return "Hello CI-CD pipeline has been implemented ";
 	}
 }
